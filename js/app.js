@@ -12,9 +12,15 @@ button.addEventListener("click", () => {
 
 function generateHex() {
     let hexColor = "#";
-    for(let i = 0; i < 6; i++) {
+    //for(let i = 0; i < 6; i++) {
+    for(let i = 5; i >= 0; i--) {
         hexColor += hex[getRandomNumber()]
     }
+
+    // let j = 1;
+    // console.log(j++);
+    // const k = j;
+    // console.log(k);
     
     return hexColor;
 }
