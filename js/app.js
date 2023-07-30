@@ -17,13 +17,15 @@ function generateHex() {
         hexColor += hex[getRandomNumber()]
     }
 
-    // let j = 1;
-    // console.log(j++);
-    // const k = j;
-    // console.log(k);
+
     
     return hexColor;
 }
+
+// let j = 1;
+// console.log(j++);
+// const k = j;
+// console.log(k);
 
 function getRandomNumber() { 
    return Math.floor(Math.random() * hex.length);
